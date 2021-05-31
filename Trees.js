@@ -43,7 +43,7 @@ class TreeNode {
   
   while ( childName.toUpperCase !== "done"){
       let child = new TreeNode (childName)
-      //console.log (`u entered ${childName}`)
+      console.log (`u entered ${childName}`)
 let parent = root.searchForParent(child)
 
 if (parent !== "parent does not exist"){
